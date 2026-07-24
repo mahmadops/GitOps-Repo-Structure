@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: nginx
+  tag: "1.27"
+
+service:
+  type: LoadBalancer
+  port: 80
+
+environment: stage
